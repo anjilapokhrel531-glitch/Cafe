@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact & Reservations - Morning Breeze Cafe</title>
+</head>
+<body>
+
+    <nav>
+        <h1>Morning Breeze Cafe: Where Coffee Meets Comfort</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Our Menu</a></li>
+            <li><a href="about.html">Our Story & Location</a></li>
+            <li><a href="contact.html">Contact & Reservations</a></li>
+        </ul>
+        <hr>
+    </nav>
+
+    <h2>Send Us a Message or Request a Reservation</h2>
+    <p>
+        Whether you want to book our large communal table for a small meeting, ask about catering options, 
+        or simply leave feedback on our new seasonal latte, we want to hear from you.  
+        Please fill out the detailed inquiry form below.  
+       
+    </p>
+    
+
+    <form action="submit_enquiry.php" method="POST"> 
+        <h3>Quick Inquiry Form (HTML Only)</h3>
+        
+        <label for="full-name">Full Name:</label><br>
+        <input type="text" id="full-name" name="full_name" required><br><br>
+        
+        <label for="subject">Subject (e.g., Reservation, Catering, Feedback):</label><br>
+        <input type="text" id="subject" name="subject" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>     
+        
+        <label for="message">Message Section (Please be detailed about your request):</label><br>
+        <textarea id="message" name="message" rows="7" cols="60" required></textarea><br><br>
+        
+        <input type="submit" value="Send Message">
+        <input type="reset" value="Clear Form">
+    </form>
+
+    <h3>Other Contact Points</h3>
+
+<table>
+    <tr>
+        <td><img src="phone icon.png" alt="Phone Icon" width="50"></td>
+        <td><b>Phone:</b> +977-9812345678</td>
+    </tr>
+
+    <tr>
+        <td><img src="email.icon.png" alt="Email Icon" width="50"></td>
+        <td><b>Email:</b> morningbreezecafe@gmail.com</td>
+    </tr>
+
+    <tr>
+        <td><img src="calendar.jpg" alt="Calendar Icon" width="50"></td>
+        <td><b>Reservation Hours:</b> 7:00 AM – 9:00 PM</td>
+    </tr>
+</table>
+
+    <hr>
+    
+    <footer>
+        <p>Thank you for choosing Morning Breeze Cafe!</p>
+    </footer>
+
+</body>
+</html>
